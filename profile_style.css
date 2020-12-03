@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*div{
+   border: 1px solid;
+   border-color: #ffffff;
+}*/
+
+
+/*scroll bar css*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1f1f1f; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/*end of scroll*/
+
+.profile-header 
+{
+    transform: translateY(5rem);
+}
+a
+{
+  color: #ffff00;
+}
+option
+{
+  background-color: #1f1f1f;
+}
+
+*
+{
+  color: #ffffff;
+}
+
+.img-fluid
+{
+  align-content: left;
+  border-radius: 10px 10px 10px 10px;
+  object-fit: contain;
+}
+
+
+
+div.card {
+  padding: 10px;
+}
+
+hr.light-100
+{
+  border-top: 6px solid #d5d5d5;
+  width: 100%;  
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+#default_img
+{
+    background-image: url(default.jpg) ;
+    display: block;
+    position: absolute;
+    
+}
+
+input
+{
+  border: 2px solid grey;
+    border-radius: 25px;
+}
+
+button
+{
+  border: 2px solid grey;
+    border-radius: 25px;
+  color: #1f1f1f;
+}
+
+button:hover
+{
+  border: 2px solid grey;
+    border-radius: 25px;
+    background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+body {
+    background: #1f1f1f;
+    min-height: 100vh;
+}
+

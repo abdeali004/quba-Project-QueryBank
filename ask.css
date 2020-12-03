@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body
+{
+  background-color: #f5fca7;
+}
+
+#entry_logo
+{
+  color: #1f1f1f;
+  font-family: "Lucida Console", Times, serif;
+  font-weight: bold;
+}
+.navbar
+{
+  padding: .8rem;
+  background-color: #1f1f1f;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link
+{
+  font-size: 1.1em !important;
+}
+
+.qnbig{
+  width: 90%;
+  height: auto;
+  padding: 16px;
+  margin: auto;
+  border: 1px solid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.qnbig:hover
+{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+#qmain{
+  width: 100%;
+  height: auto;
+  border-left: 5px solid red;
+  background-color: #ed9895;
+  padding-left: 15px;
+}
+
+.ansmain{
+  width: 80%;
+  margin-left: 5%; 
+  height: auto;
+  border-left: 5px solid #1117bd;
+  background-color: #a8abf7;
+  padding-left: 15px;
+}
+
+.l-100
+{
+  border-top: 2px solid #1f1f1f;
+  width: 100%;  
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+.l-101
+{
+  border-top: 2px solid;
+  width: 60%;  
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+
+
+#textid{
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid grey;
+  float: left;
+  background: #d9d5d4;
+  position: fixed;
+  bottom:0;
+  width:90%;
+}
+.replyinput
+{
+  padding: 7px;
+  font-size: 17px;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid grey;
+  background: #d9d5d4;
+  position: absolute;
+  width:45%;
+}
+
+#sendq{
+  float: left;
+  padding: 10px;
+  background: #1f1f1f;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+  cursor: pointer;
+  position: fixed;
+  bottom:0;
+  width:10%;
+  right:0;
+}
+button
+{
+  padding: 6px;
+  background: #1f1f1f;
+  color: white;
+  border: 1px solid #1f1f1f;
+  border-radius: 10px;
+  position: absolute;
+  width:5%;
+}
+#senda{
+  float: left;
+  padding: 8px;
+  background: #1f1f1f;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+  cursor: pointer;
+  position: absolute;
+  width:5%;
+  right:45%;
+}
+
+/*scroll bar css*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1f1f1f; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/*end of scroll*/
+
+
+
+
+@media (max-width: 992px) 
+  {
+    .social a
+    {
+      font-size: 4em;
+      padding: 2rem;
+    }
+  }
+@media (max-width: 768px) {
+  
+.display-4
+{
+  font-size: 200%;
+}
+}
+@media (max-width: 576px) {
+ 
+.display-4
+{
+  font-size: 160%;
+}
+.social a
+    {
+      font-size: 2em;
+      padding: .7rem;
+    }
+    #senda
+    {
+      width:10%;
+    }
+}
+
