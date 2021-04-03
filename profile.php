@@ -79,7 +79,7 @@ else{
            # echo "<br><br><br><br><br><br><br><br><br>";
               
 
-                echo '<div style="width: 200px;box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);text-align: center;">';
+                echo '<div style="width: 200px;box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);text-align: center; margin: 10px;">';
                   echo "<img alt='No Image' src='user_img/".$row['image']."' class='img-fluid' style='width: 200px;height: 200px;'>";
                     
                 echo'</div>';

@@ -4,6 +4,6 @@ It is a platform to ask questions and get replies from the people who contribute
 
 I created this website in php to know how php and quora works. This just simple and sober mini version of site you can complete it as per your demand and complexity.
 
-So, go ahead and make your own version of this.
+So, go ahead and make your own version from this.
 
 Don't forget to follow me for more such projects.

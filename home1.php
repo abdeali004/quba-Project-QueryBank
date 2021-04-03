@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <?php
 session_start();
 if(!isset($_SESSION['username']))
@@ -59,7 +60,7 @@ if(!isset($_SESSION['username']))
 	</ul>
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img src="img/slide1.png">
+			<img src="img/slide1.jpg">
 			<div class="carousel-caption">
 				<h1 class="display-2">WELCOME</h1>
 				<h3>'<?php echo strtoupper($_SESSION['username']) ;?>'</h3>
@@ -68,7 +69,7 @@ if(!isset($_SESSION['username']))
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="img/slide2.png">
+			<img src="img/slide2.jpg">
 			<div class="carousel-caption">
 				<h1 class="display-2">Ask Freely</h1>
 				<h3><q>The best way
@@ -80,7 +81,7 @@ if(!isset($_SESSION['username']))
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="img/slide3.png">
+			<img src="img/slide3.jpg">
 			<div class="carousel-caption">
 				<h1 class="display-2">Reply Freely</h1>
 				<h3>Because <q>If you have knowledge,
@@ -118,10 +119,10 @@ if(!isset($_SESSION['username']))
 		</div>
 		<hr class="light-101">
 		<div class="col-20 social padding">
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-instagram"></i></a>
-			<a href="#"><i class="fa fa-google" style="color: #1f1f1f;" onMouseOut="this.style.color='#1f1f1f'" onMouseOver="this.style.color='red'"></i></a>
+			<a href="https://www.linkedin.com/in/abdeali004" target="_blank"><i class="fa fa-linkedin"></i></a>
+			<a href="https://twitter.com/abdeali004" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.instagram.com/abdeali004" target="_blank"><i class="fa fa-instagram"></i></a>
+			<a href="http://lovetocode-resume.herokuapp.com/" target="_blank"><i class="fa fa-google" style="color: #1f1f1f;" onMouseOut="this.style.color='#1f1f1f'" onMouseOver="this.style.color='red'"></i></a>
 		</div>
 		<hr class="light-101">
 	</div>

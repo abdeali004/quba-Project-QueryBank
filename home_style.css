@@ -75,14 +75,15 @@ html,body{
 {
   font-size: 4.5em;
   padding: 3rem;
+  margin: 75px;
 
 }
 
-.fa-facebook,.fa-instagram,.fa-twitter,.fa-google
+.fa-linkedin,.fa-instagram,.fa-twitter,.fa-google
 {
   color: #1f1f1f;
 }
-.fa-facebook:hover{
+.fa-linkedin:hover{
   color: #3b5998;
   }
 .fa-instagram:hover
@@ -93,6 +94,45 @@ html,body{
 {
   color: #00aced;
 }
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  height: 500px !important;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
 
 
 
@@ -136,9 +176,16 @@ hr.light-101
     {
       font-size: 4em;
       padding: 2rem;
+      margin: 75px;
+    }
+    .carousel-item {
+      height: 500px;
     }
   }
 @media (max-width: 768px) {
+  .carousel-item {
+    height: 300px;
+  }
   .carousel-caption
 {
   top: 45%;
@@ -169,9 +216,13 @@ hr.light-101
     {
       font-size: 2.5em;
       padding: 1.2rem;
+      margin: 75px;
     }
 }
 @media (max-width: 576px) {
+  .carousel-item {
+    height: 300px;
+  }
   
   .carousel-caption
 {
@@ -206,6 +257,7 @@ hr.light-101
     {
       font-size: 2em;
       padding: .7rem;
+      margin: 75px;
     }
 }
 
@@ -216,42 +268,6 @@ hr.light-101
   height: 60px;
 }*/
 
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-}
-/*--- Fixed Background Image --*/
-figure {
-  position: relative;
-  width: 100%;
-  height: 60%;
-  margin: 0!important;
-}
-.fixed-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-#fixed {
-  background-image: url('img/mac.png');
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  will-change: transform;
-}
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;

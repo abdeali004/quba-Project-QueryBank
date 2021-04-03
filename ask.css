@@ -2,7 +2,7 @@
 
 body
 {
-  background-color: #f5fca7;
+  background-color: #8a8a8a;
 }
 
 #entry_logo
@@ -33,6 +33,7 @@ body
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
   transition: 0.3s;
   border-radius: 15px;
+  background-color: #cecece;
 }
 
 .qnbig:hover
